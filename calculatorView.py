@@ -38,7 +38,7 @@ class CalculatorView():
             self.lb.insert(END, i)
         self.lb.bind('<<ListboxSelect>>', self.milToleransBolgesiSecimi)
 
-        self.b = Button(frame, text="Calculate", command=self.calculate)
+        self.b = Button(frame, text="Hesapla", command=self.calculate)
 
         self.l1.grid(row=0, column=0, sticky='', pady=2)
         self.l2.grid(row=1, column=0, sticky='', pady=2)
